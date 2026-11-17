@@ -1,0 +1,2 @@
+# Gaffer: let the logged-in user drive uDMX USB-DMX dongles (Anyma uDMX and clones).
+SUBSYSTEM=="usb", ATTR{idVendor}=="16c0", ATTR{idProduct}=="05dc", ATTR{product}=="uDMX", TAG+="uaccess"

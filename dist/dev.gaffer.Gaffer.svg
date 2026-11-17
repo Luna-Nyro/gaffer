@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2a14"/><stop offset="1" stop-color="#17110a"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd27a" stop-opacity="0.95"/><stop offset="1" stop-color="#ff9a3c" stop-opacity="0.05"/>
+    </linearGradient>
+    <radialGradient id="pool" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffcf70" stop-opacity="0.9"/><stop offset="1" stop-color="#ff8a2a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#bg)"/>
+  <path d="M52 34 L76 34 L100 104 L28 104 Z" fill="url(#beam)"/>
+  <ellipse cx="64" cy="102" rx="40" ry="9" fill="url(#pool)"/>
+  <rect x="46" y="18" width="36" height="20" rx="6" fill="#2b2b30" stroke="#5a5a62" stroke-width="2"/>
+  <rect x="52" y="34" width="24" height="5" rx="2" fill="#fff1c8"/>
+  <circle cx="34" cy="26" r="5" fill="#ff5a7a"/><circle cx="94" cy="26" r="5" fill="#4aa8ff"/>
+</svg>

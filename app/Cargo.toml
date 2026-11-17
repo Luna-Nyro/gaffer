@@ -1,0 +1,15 @@
+[package]
+name = "gaffer"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+gaffer-core.workspace = true
+gaffer-output.workspace = true
+serde_json.workspace = true
+libc = "0.2"
+async-channel = "2"
+gst = { package = "gstreamer", version = "0.25" }
+gtk = { package = "gtk4", version = "0.11", features = ["v4_14"] }
+adw = { package = "libadwaita", version = "0.9", features = ["v1_5"] }

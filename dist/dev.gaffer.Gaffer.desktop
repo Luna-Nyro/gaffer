@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Gaffer
+GenericName=Lighting Control
+Comment=Control DMX lights: brightness, colours, scenes and automations
+Exec=gaffer
+Icon=dev.gaffer.Gaffer
+Terminal=false
+Categories=AudioVideo;Utility;
+Keywords=DMX;lights;lighting;stage;LED;scene;

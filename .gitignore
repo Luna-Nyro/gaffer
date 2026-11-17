@@ -1,0 +1,20 @@
+# Rust build output
+target/
+**/*.rs.bk
+
+# Temporary / backup files written while editing or saving
+*.tmp
+*.orig
+*.swp
+*~
+.DS_Store
+
+# Editor / IDE settings
+.idea/
+.vscode/
+
+# Local release-prep notes (not part of the project)
+PREP-REPORT.md
+
+# Legal-review bundle (contains private data; never commit)
+review.tgz
